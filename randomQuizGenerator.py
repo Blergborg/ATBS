@@ -49,7 +49,7 @@ for quizNum in range(35):
         random.shuffle(answerOptions)
 
         # Write the question and answer options to the quiz file.
-        quizFIle.write('%s. What is the capital of %s?\n' % (questionNum + 1,
+        quizFile.write('%s. What is the capital of %s?\n' % (questionNum + 1,
         states[questionNum]))
 
         for i in range(4):
