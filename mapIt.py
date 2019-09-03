@@ -1,8 +1,7 @@
+#! python3
 # Web Scraper project
 # Gets a street address from command line arguments or clipboard, then opens
 # google maps page for that address
-
-# shebang line actually necessary?
 
 import webbrowser, sys, pyperclip
 if len(sys.argv) > 1:
